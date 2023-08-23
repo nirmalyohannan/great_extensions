@@ -1,7 +1,7 @@
 name: great_extensions
-description: A new Flutter package project.
+description: Great Extensions is a package to help you reduce your development complexity. Commonly used methods, widgets and functionalities have been added as extensions to reduce Boilerplate code
 version: 0.0.1
-homepage:
+homepage: https://github.com/nirmalyohannan/great_extensions
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
@@ -16,10 +16,7 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
 
-# The following section is specific to Flutter packages.
 flutter:
 
   # To add assets to your package, add an assets section, like this:

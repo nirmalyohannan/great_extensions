@@ -8,4 +8,8 @@ extension GreatInt on int {
   SizedBox get widthBox {
     return SizedBox(width: toDouble());
   }
+
+  BorderRadius get radiusCirc {
+    return BorderRadius.circular(toDouble());
+  }
 }
