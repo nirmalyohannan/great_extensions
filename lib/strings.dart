@@ -9,4 +9,25 @@ extension GreatString on String? {
     }
     return false;
   }
+
+  int? intParse() {
+    if (this == null) {
+      return null;
+    }
+    return int.tryParse(this!);
+  }
+
+  double? doubleParse() {
+    if (this == null) {
+      return null;
+    }
+    return double.tryParse(this!);
+  }
+
+  DateTime? dateTimeParse() {
+    if (this == null) {
+      return null;
+    }
+    return DateTime.tryParse(this!);
+  }
 }
