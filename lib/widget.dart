@@ -25,4 +25,21 @@ extension GreatWidget on Widget {
       child: this,
     );
   }
+
+  Widget opacity(double opacity) {
+    return Opacity(
+      opacity: opacity,
+      child: this,
+    );
+  }
+
+  Widget flexible({int flex = 1, bool flexEnabled = true}) {
+    if (flexEnabled == false) {
+      return this;
+    }
+    return Flexible(
+      flex: flex,
+      child: this,
+    );
+  }
 }
